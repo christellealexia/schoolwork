@@ -1,0 +1,132 @@
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(19, 16, 16);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+body{
+    background-image:linear-gradient;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow: hidden;
+
+    
+
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px grey;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: black;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+.input-group-login{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s ;
+}
+.input-group-register{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: black;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 34px 0;
+
+}
+span{
+    color: #777;
+    font-size: 15px;
+    bottom: 98px;
+    }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="galery.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="logo.webp" class="logo" />
+      <ul>
+        <li><a class="active" href="gal.html">Home</a></li>
+      
+        
+        <li><a href="student.php">APPlY</a></li>
+        
+      </ul>
+    </div>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.button {
+    align-self: center;
+    background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 90px;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>OUR beautiful HOSTELS</h1>
+  <p>Hope you enjoy the beautiful view!</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="NationalUniversity.jpg" style="width:100%">
+    <img src="nyarutarama.jpg" style="width:100%">
+    <img src="kiza1.jpg" style="width:100%">
+    <img src="rinda1.jpg" style="width:100%">
+    <img src="misereole2.jpg" style="width:100%">
+    <img src="bengaze.jpg" style="width:100%">
+    <img src="bengaze2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="bengaze.jpg" style="width:100%">
+    <img src="bengaze2.jpg" style="width:100%">
+    <img src="combodge1.jpg" style="width:100%">
+    <img src="combodge2.jpg" style="width:100%">
+    <img src="hostel1.jpg" style="width:100%">
+    <img src="image10.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="image11.jpg" style="width:100%">
+    <img src="image12.jpg" style="width:100%">
+    <img src="image14.jpg" style="width:100%">
+    <img src="image13.jpg" style="width:100%">
+    
+    
+  </div>
+  <div class="column">
+    <img src="image15.jpg" style="width:100%">
+    <img src="image16.jpg" style="width:100%">
+    <img src="nyarutarama.jpg" style="width:100%">
+    <img src="misereole3.jpg" style="width:100%">
+    <img src="viete2.jpg" style="width:100%">
+    
+  </div>
+</div>
+<a href="student.php" class="button">APPLY</a>
+
+
+
+</body>
+</html>
